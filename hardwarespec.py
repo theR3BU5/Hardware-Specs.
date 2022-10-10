@@ -27,9 +27,9 @@ print(f"# of LOGICAL CORES: {ps.cpu_count(logical=True)} \n")
 
 #CPU {Current, Min, Max} Frequency
 
-print(f"Current CPU frequency: {ps.cpu_freq().current}")
-print(f"Min CPU frequency: {ps.cpu_freq().min}")
-print(f"Max CPU frequency: {ps.cpu_freq().max}")
+#print(f"Current CPU frequency: {ps.cpu_freq().current}")
+#print(f"Min CPU frequency: {ps.cpu_freq().min}")
+#print(f"Max CPU frequency: {ps.cpu_freq().max}")
 
 
 #CPU Utilization
